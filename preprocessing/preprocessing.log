@@ -1,0 +1,28 @@
+2025-08-29 23:02:48,257 - INFO - HeartDiseasePreprocessor initialized
+2025-08-29 23:02:48,257 - INFO - Input path: dataset_preprocessing/heart_disease_full.csv
+2025-08-29 23:02:48,257 - INFO - Output directory: dataset_preprocessing
+2025-08-29 23:02:48,257 - INFO - === STARTING PREPROCESSING PIPELINE ===
+2025-08-29 23:02:48,263 - INFO - Data loaded successfully. Shape: (297, 14)
+2025-08-29 23:02:48,263 - INFO - Handling missing values...
+2025-08-29 23:02:48,263 - INFO - Missing values before handling: 0
+2025-08-29 23:02:48,274 - INFO - Missing values after handling: 0
+2025-08-29 23:02:48,274 - INFO - Encoding categorical variables...
+2025-08-29 23:02:48,274 - INFO - Encoded column: sex
+2025-08-29 23:02:48,275 - INFO - Encoded column: cp
+2025-08-29 23:02:48,275 - INFO - Encoded column: fbs
+2025-08-29 23:02:48,275 - INFO - Encoded column: restecg
+2025-08-29 23:02:48,275 - INFO - Encoded column: exang
+2025-08-29 23:02:48,275 - INFO - Encoded column: slope
+2025-08-29 23:02:48,275 - INFO - Encoded column: ca
+2025-08-29 23:02:48,276 - INFO - Encoded column: thal
+2025-08-29 23:02:48,276 - INFO - Scaling features...
+2025-08-29 23:02:48,277 - INFO - Scaled 13 features
+2025-08-29 23:02:48,277 - INFO - Creating train/test split...
+2025-08-29 23:02:48,281 - INFO - Train set: 237 samples
+2025-08-29 23:02:48,281 - INFO - Test set: 60 samples
+2025-08-29 23:02:48,283 - INFO - Train target distribution: {0.0: 128, 1.0: 109}
+2025-08-29 23:02:48,283 - INFO - Test target distribution: {0.0: 32, 1.0: 28}
+2025-08-29 23:02:48,283 - INFO - Saving processed data...
+2025-08-29 23:02:48,288 - INFO - Train data saved to: dataset_preprocessing/train_processed.csv
+2025-08-29 23:02:48,288 - INFO - Test data saved to: dataset_preprocessing/test_processed.csv
+2025-08-29 23:02:48,288 - INFO - === PREPROCESSING PIPELINE COMPLETED SUCCESSFULLY ===

@@ -1,0 +1,10 @@
+Link GitHub Repository Eksperimen & Preprocessing:
+https://github.com/nanda910/Eksperimen_SML_Dewangga_Megananda
+
+Repository ini berisi:
+- Eksperimen_Dewangga_Megananda.ipynb (EDA dan preprocessing)
+- automate_Dewangga_Megananda.py (otomatisasi preprocessing)
+- dataset_preprocessing/ (hasil preprocessing dalam format CSV)
+
+Author: Dewangga Megananda
+Dataset: Heart Disease (UCI)
